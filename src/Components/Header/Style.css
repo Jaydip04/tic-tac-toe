@@ -1,0 +1,67 @@
+.title {
+  font-weight: bold;
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.game-board {
+  border: 15px solid black;
+  background: black;
+  width: 320px;
+  height: 320px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 15px;
+}
+
+.blank-btn {
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  outline: none;
+  font-family: sans-serif;
+  padding: 0px;
+  font-weight: bold;
+  background: white;
+  cursor: pointer;
+}
+.cross-btn {
+  color: rgb(38, 73, 145);
+}
+
+.zero-btn {
+  color: rgb(185, 31, 45);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.footer p span {
+  font-weight: bold;
+}
+.footer button {
+  outline: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  width: 100%;
+  font-weight: 500;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm {
+  max-width: 345px !important;
+}
